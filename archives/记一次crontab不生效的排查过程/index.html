@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "/eab2f7011c1ceb797a8bc37ceee4175d.json"
+            api: "/a0a5337932a89fb454a4dfc4191e22be.json"
         }
     </script>
     
@@ -97,19 +97,16 @@
 <ol>
 <li>查看当前时间
 当前时间是北京时间无误</li>
-<li>重启crond服务和syslog服务</li>
-</ol>
-</blockquote>
-<div class="highlight"><pre><span></span>systemctl restart rsyslog
-    systemctl restart crond.service
+<li>重启crond服务和syslog服务<div class="highlight"><pre><span></span>systemctl restart rsyslog
+ systemctl restart crond.service
 </pre></div>
-<ol>
-<li>第二天观察执行情况<blockquote><p>正常执行，问题解决</p>
-<h4>总结</h4>
-<p>linux服务器，原来非北京时间，后来有修改成北京时间，但是相关的定时任务服务和日志服务，未重启导致</p>
-</blockquote>
 </li>
+<li>第二天观察执行情况
+正常执行，问题解决
+#### 总结
+linux服务器，原来非北京时间，后来有修改成北京时间，但是相关的定时任务服务和日志服务，未重启导致</li>
 </ol>
+</blockquote>
 
             </div>
         </article>

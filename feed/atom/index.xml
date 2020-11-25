@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>无为而治，细微积累</title><updated>2020-11-25T08:44:14.324502+08:06</updated><author><name>greezen</name><email>hi@imalan.cn</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/logo.png</logo><subtitle>坚持做很小的事情</subtitle><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2020-11-25T08:44:14.324664+00:00</updated><author><name>AlanDecode</name><email>hi@imalan.cn</email><uri>https://www.imalan.cn</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>无为而治，细微积累</title><updated>2020-11-25T08:47:55.970573+08:06</updated><author><name>greezen</name><email>hi@imalan.cn</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/logo.png</logo><subtitle>坚持做很小的事情</subtitle><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2020-11-25T08:47:55.970733+00:00</updated><author><name>AlanDecode</name><email>hi@imalan.cn</email><uri>https://www.imalan.cn</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -78,7 +78,7 @@
 &lt;/table&gt;
 &lt;h2&gt;Link Card&lt;/h2&gt;
 &lt;div class="links"&gt;
-&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/archives/简单、快速/</id><title>go语法基本语法学习</title><updated>2020-11-25T08:44:14.324630+00:00</updated><author><name>&lt;greezen&gt;</name><email>hi@imalan.cn</email><uri>https://www.imalan.cn</uri></author><content>&lt;h2&gt;第一个go程序&lt;/h2&gt;
+&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/archives/简单、快速/</id><title>go语法基本语法学习</title><updated>2020-11-25T08:47:55.970699+00:00</updated><author><name>&lt;greezen&gt;</name><email>hi@imalan.cn</email><uri>https://www.imalan.cn</uri></author><content>&lt;h2&gt;第一个go程序&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;package&lt;/span&gt; &lt;span class="nx"&gt;main&lt;/span&gt;
 
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;fmt&amp;quot;&lt;/span&gt;
@@ -87,7 +87,7 @@
     &lt;span class="nx"&gt;fmt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello, World!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/简单、快速/" rel="alternate"/><published>2020-11-25T13:42:00+08:06</published></entry><entry><id>/archives/记一次crontab不生效的排查过程/</id><title>记一次crontab不生效的排查过程</title><updated>2020-11-25T08:44:14.324567+00:00</updated><author><name>&lt;greezen&gt;</name><email>hi@imalan.cn</email><uri>https://www.imalan.cn</uri></author><content>&lt;h4&gt;问题描述&lt;/h4&gt;
+</content><link href="/archives/简单、快速/" rel="alternate"/><published>2020-11-25T13:42:00+08:06</published></entry><entry><id>/archives/记一次crontab不生效的排查过程/</id><title>记一次crontab不生效的排查过程</title><updated>2020-11-25T08:47:55.970637+00:00</updated><author><name>&lt;greezen&gt;</name><email>hi@imalan.cn</email><uri>https://www.imalan.cn</uri></author><content>&lt;h4&gt;问题描述&lt;/h4&gt;
 &lt;blockquote&gt;&lt;p&gt;创建了一个每天1点执行的定时任务，第二天发现脚本没有正常执行&lt;/p&gt;
 &lt;h4&gt;问题分析&lt;/h4&gt;
 &lt;ol&gt;
@@ -104,17 +104,14 @@
 &lt;ol&gt;
 &lt;li&gt;查看当前时间
 当前时间是北京时间无误&lt;/li&gt;
-&lt;li&gt;重启crond服务和syslog服务&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;systemctl restart rsyslog
-    systemctl restart crond.service
+&lt;li&gt;重启crond服务和syslog服务&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;systemctl restart rsyslog
+ systemctl restart crond.service
 &lt;/pre&gt;&lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;第二天观察执行情况&lt;blockquote&gt;&lt;p&gt;正常执行，问题解决&lt;/p&gt;
-&lt;h4&gt;总结&lt;/h4&gt;
-&lt;p&gt;linux服务器，原来非北京时间，后来有修改成北京时间，但是相关的定时任务服务和日志服务，未重启导致&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;/li&gt;
+&lt;li&gt;第二天观察执行情况
+正常执行，问题解决
+#### 总结
+linux服务器，原来非北京时间，后来有修改成北京时间，但是相关的定时任务服务和日志服务，未重启导致&lt;/li&gt;
 &lt;/ol&gt;
+&lt;/blockquote&gt;
 </content><link href="/archives/记一次crontab不生效的排查过程/" rel="alternate"/><published>2020-11-25T15:18:15+08:06</published></entry></feed>
