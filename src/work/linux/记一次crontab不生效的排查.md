@@ -29,11 +29,9 @@ excerpt:
 4. 查看当前时间
    > 当前时间是北京时间无误
 5. 重启crond服务和syslog服务
-
    ```bash
     systemctl restart rsyslog
     systemctl restart crond.service
-
    ```
 6. 第二天观察执行情况
    > 正常执行，问题解决
