@@ -21,6 +21,7 @@ excerpt:
 2. 修改成1分钟执行一次
    > 正常执行
 3. 查看定时任务日志
+
    ```bash
    vi /var/log/cron
    ```
@@ -28,6 +29,7 @@ excerpt:
 4. 查看当前时间
    > 当前时间是北京时间无误
 5. 重启crond服务和syslog服务
+
    ```bash
     systemctl restart rsyslog
     systemctl restart crond.service
