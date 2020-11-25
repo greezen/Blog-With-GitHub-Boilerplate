@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 记一次crontab不生效的排查过程
-slug: 简单、快速
+slug: 记一次crontab不生效的排查过程
 date: 2020-11-25 15:18:15
 status: publish
 author: <greezen>
