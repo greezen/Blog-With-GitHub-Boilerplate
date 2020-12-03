@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "/c3c5d54bb43ec4d28369d26a3bccdaef.json"
+            api: "/98b133583e41f977fca05610c0c8cf7f.json"
         }
     </script>
     
@@ -81,34 +81,34 @@
             </span>
             <div class="ga-content_body">
                 <h4>问题描述</h4>
-<blockquote><blockquote><p>创建了一个每天1点执行的定时任务，第二天发现脚本没有正常执行</p>
-<h4>问题分析</h4>
+<div class="notice"> 创建了一个每天1点执行的定时任务，第二天发现脚本没有正常执行 </div><h4>问题分析</h4>
 <ol>
-<li>手动执行脚本，并检查权限
-正常执行</li>
-<li>修改成1分钟执行一次
-正常执行</li>
-<li>查看定时任务日志</li>
-</ol>
+<li>手动执行脚本，并检查权限<blockquote><p>正常执行</p>
 </blockquote>
+</li>
+<li>修改成1分钟执行一次<blockquote><p>正常执行</p>
 </blockquote>
+</li>
+<li><p>查看定时任务日志</p>
 <div class="highlight"><pre><span></span>vi /var/log/cron
 </pre></div>
 <blockquote><p>日志中无明显错误，但日志记录的时间<code>不是北京时间</code></p>
-<ol>
-<li>查看当前时间
-当前时间是北京时间无误</li>
+</blockquote>
+</li>
+<li>查看当前时间<blockquote><p>当前时间是北京时间无误</p>
+</blockquote>
+</li>
 <li>重启crond服务和syslog服务<div class="highlight"><pre><span></span>systemctl restart rsyslog
  systemctl restart crond.service
 </pre></div>
 </li>
-<li>第二天观察执行情况
-正常执行，问题解决
-#### 总结<blockquote><p>linux服务器，原来非北京时间，后来有修改成北京时间，但是相关的定时任务服务和日志服务，未重启导致</p>
+<li>第二天观察执行情况<blockquote><p>正常执行，问题解决</p>
+<h4>总结</h4>
+<blockquote><p>linux服务器，原来非北京时间，后来有修改成北京时间，但是相关的定时任务服务和日志服务，未重启导致</p>
+</blockquote>
 </blockquote>
 </li>
 </ol>
-</blockquote>
 
             </div>
         </article>
